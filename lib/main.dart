@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.black,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'Source Sans Pro',
                   fontSize: 20.0,
-                  color: Colors.teal.shade100,
+                  color: Colors.teal,
                   letterSpacing: 2.5,
                   fontWeight: FontWeight.bold,
                 ),
